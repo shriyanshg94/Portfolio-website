@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shriyansh Gupta - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+       
+        background-color: rgb(18,18,62);
+        position: sticky;
+
+        
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+       
+    }
+    nav ul li{
+       list-style: none;
+      margin-right: 30px ;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: lavender;
+        font-size: 1.02rem;
+
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        margin: 60px 0;
+        align-items: center;
+    }
+    .firstSection > div{
+        width: 30%;
+    }
+    .leftSection{
+        font-size: 3rem;
+       
+        
+    }
+    .leftSection .btn{
+        
+        padding: 12px;
+        background: #a8aae3;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+       
+        
+    }
+    .rightSection img{
+        width: 80%;
+       
+
+        
+    }
+    .purple{
+        color:rgb(170,107,228);
+
+    }
+    .text-gray{
+        color: gray;
+    }
+    #element{
+        color: rgb(170,107,228);
+    }
+    .secondSection{
+        max-width: 80vw;
+        margin:auto ;
+        height: 80vh;
+    }
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+    .secondSection h1{
+        font-size: 1.9rem;
+    }
+    .secondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+    .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white ;
+        margin: 0 170px;
+
+
+    }
+    .image-top{
+        width: 60px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+
+    }
+    .vertical-desc{
+        position: relative;
+        top: 80px;
+        color: gray;
+        width: 120px;
+        font-size: 11px;
+        
+
+    }
+    .vertical-title{
+        position: relative;
+        top: 60px;
+        width: 150px;
+        font-size: 34px;
+
+    }
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+
+
+    }
+    footer{
+        background-color: #0e0e1a ;
+        height: 200px;
+    }
+    .footer ul{
+        list-style: none;
+    }
+
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+    .thirdSection{
+        
+       
+       text-align: center;
+        margin: 90px 390px;
+    }
+    .thirdSection.about{
+        margin: 490px 500px
+    }
+    .image-down{
+        width: 160px;
+        position: left;
+        top: 32px;
+        left: 3px;
+
+    }
+
+
+</style>
+
+
+</head>
+<body id="home">
+    <header>
+        <nav>
+          <h3 style="font-size: 30px;">Shriyansh Gupta-Portfolio</h3> 
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#projects">Services</a></li>
+                    <li><a href="#projects"> Projects</a></li>
+                    <li><a href="tel:+917489244213"> Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main >
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Shriyansh</span>
+                <div>and I am a passionate</div>
+                <div>Software Engineer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"> <a href="sg.pdf"> Download Resume</a> </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="pg.png" alt="">
+            </div>
+        </section>
+<hr>
+        <section class="secondSection" id="projects">
+            <span class="text-gray">What I have done so far</span>
+           <h1>Project-Details</h1> 
+           <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                   Online Voting System
+                </div>
+                <div class="vertical-desc">
+                   Create a website using PHP, which can be used for conducting elections in online medium. Voters can register themselves on website and login, logout functions are also there Data of all user maintained in the database.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    Spotify Clone
+                </div>
+                <div class="vertical-desc">
+                   Developed a web site using HTML, CSS, JAVASCRIPT in which music available for listening. Users can play songs by clicking play button and also use forward and backward options to move to different music.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                 CodeSmashers
+                </div>
+                <div class="vertical-desc">
+                    Developed a website using wordpress technology, in which we are able to read various blogs or articles on various technologies. 
+                </div>
+            </div>
+           </div>
+
+        </section>
+        <hr>
+        
+
+        <section class="thirdSection">
+            <h1>About </h1>
+             <img class="image-down" src="pp2.jpg" alt="">
+           
+           
+            <div class="about" id="about">
+                
+                I am a passionate and skilled software developer with experience in web development using PHP, HTML, CSS, and JavaScript. My projects include an Online voting system and a Spotify clone. I have a strong foundation in programming languages like Python, C++, and Java. With a focus on data analytics and MySQL, I strive to create innovative and efficient solutions. Graduating with a Information technology, I am eager to contribute my skills and expertise to a dynamic and challenging environment.
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Shriyansh developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact-7489244213</li>
+                    <li>Services-Software Skills</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            www.rithikportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['-Web Developer', '-Cloud Engineer','-Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
